@@ -19,6 +19,8 @@ Layers are added together. Size, width, height and scale are multiplied instead,
 
 ## Install
 
+**[⬇ Download AnimLayers.zip](https://github.com/Ayushmishra9824/anim-layers-fusion/releases/latest/download/AnimLayers.zip)** (latest release)
+
 ### Windows
 1. Unzip the download.
 2. Double-click **`Install (Windows).bat`**.
