@@ -1,0 +1,12 @@
+-- Anim Layers hotkeys for the Fusion Nodes panel.
+--   L        add an anim layer to the selected node
+--   Shift+L  on a layer: remove it. On the base or its Result: merge all layers into the base.
+{
+	Hotkeys
+	{
+		Target = "FlowView",
+
+		L = "Execute{ cmd = [[ local c = app.CurrentComp; if c then c:RunScript(app:MapPath('Scripts:Comp/Anim Layers/Add Anim Layer.lua')) end ]] }",
+		SHIFT_L = "Execute{ cmd = [[ local c = app.CurrentComp; if c then c:RunScript(app:MapPath('Scripts:Comp/Anim Layers/Remove Anim Layer.lua')) end ]] }",
+	},
+}
